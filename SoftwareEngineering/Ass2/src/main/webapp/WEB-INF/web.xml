@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app	version="3.0"
+			xmlns="http://java.sun.com/xml/ns/javaee" 
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://java.sun.com/xml/ns/javaee	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+	<display-name>Simple web application</display-name>
+	<servlet>
+		<description>
+		</description>
+		<display-name>Servlet</display-name>
+		<servlet-name>Servlet</servlet-name>
+		<servlet-class>Servlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>Servlet2</display-name>
+		<servlet-name>Servlet2</servlet-name>
+		<servlet-class>Servlet2</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>Servlet3</display-name>
+		<servlet-name>Servlet3</servlet-name>
+		<servlet-class>Servlet3</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>Servlet4</display-name>
+		<servlet-name>Servlet4</servlet-name>
+		<servlet-class>Servlet4</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>servlet5</display-name>
+		<servlet-name>servlet5</servlet-name>
+		<servlet-class>servlet5</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+		</description>
+		<display-name>ReadServlet</display-name>
+		<servlet-name>ReadServlet</servlet-name>
+		<servlet-class>ReadServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Servlet</servlet-name>
+		<url-pattern>/Servlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Servlet2</servlet-name>
+		<url-pattern>/Servlet2</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Servlet3</servlet-name>
+		<url-pattern>/Servlet3</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Servlet4</servlet-name>
+		<url-pattern>/Servlet4</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>servlet5</servlet-name>
+		<url-pattern>/servlet5</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ReadServlet</servlet-name>
+		<url-pattern>/ReadServlet</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+	    <welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>

@@ -1,0 +1,30 @@
+%head of list
+head([H|_],X):-
+     X=H.
+
+%tail of list
+tail([H|[]]):-
+    %if its just an element print that element
+    %as the tail
+    tail(H).
+
+tail([H|T]):-
+    tail(T).
+
+tail(T):-
+    write("tail"),
+    write(T).
+
+%Print head, head of tail and tail
+headtail([H|T]):-
+    head(H),%print head
+    head(T),%print head of tail
+    tail(T).%print tail
+
+contains1(X,[H|_]):-
+    X=:=H.
+
+contains2(X,[_|T]):-
+    X=T.
+
+

@@ -1,0 +1,7 @@
+learns(nicole,T).
+learns(kacper,IT).
+teaches(Jack,IT).
+
+instructs(X,Y):-
+    learns(y,Z),
+    teaches(X,Z).

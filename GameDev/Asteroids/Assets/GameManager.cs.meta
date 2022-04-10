@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ab6de29dd2fdb1a4c96a2062ec09aff1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - asteroidPrefab: {fileID: 1713697317074062615, guid: 024a2944558f24e45815e5d9b7bdc8a3, type: 3}
+  - spaceShip: {instanceID: 0}
+  - bullet: {fileID: 313123183092663727, guid: 871ccdd1ee7a7174e9303bb7fbf6dcf9, type: 3}
+  - menue: {fileID: 3522810350047820281, guid: 77debcf1ac51ae94d8635a9f4b5be119, type: 3}
+  - playing: {fileID: 6555327808411130350, guid: 84e71f2f9b0cd5e45891d506b6997a2e, type: 3}
+  - startButton: {fileID: 3522810350047820281, guid: 77debcf1ac51ae94d8635a9f4b5be119, type: 3}
+  - scoreValue: {fileID: 6555327808411130350, guid: 84e71f2f9b0cd5e45891d506b6997a2e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

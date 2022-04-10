@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9d5e8997701aef34a9a5096903ef7aac
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spaceShip: {fileID: 8299478387300410522, guid: 2b9fa8c130e03534baf14ea2ba7027fd, type: 3}
+  - bullet: {fileID: 313123183092663727, guid: 871ccdd1ee7a7174e9303bb7fbf6dcf9, type: 3}
+  - rb: {fileID: 313123183092663724, guid: 871ccdd1ee7a7174e9303bb7fbf6dcf9, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

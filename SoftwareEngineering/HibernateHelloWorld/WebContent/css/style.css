@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: 'Segoe UI', Segoe, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: lightblue;
+	opacity: 0.5;
+}
+h1 {
+  background-color: white;
+}
+h2,h3 {
+	background-color: brown;
+}
+table, th, td {
+  border: 1px solid white;
+  width: 100%;
+}
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #008CBA;
+  color: white;
+}

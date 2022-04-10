@@ -1,0 +1,17 @@
+
+%if searched all through list and its empty
+%print not in list
+%isNotElementInList(El,[]).
+%if el != H recursively call one version
+%of the function
+isNotElementInList(El,[El|T]):-
+    !,  %discard all choice points created.
+    false.
+
+isNotElementInList(El,[H|T]):-
+    !,
+    isNotElementInList(El,T).
+
+isNotElementInList(EL,[]).
+
+
